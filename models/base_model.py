@@ -2,6 +2,7 @@
 """
 Contains class BaseModel
 """
+from models import storage
 import sqlalchemy
 from datetime import datetime
 from sqlalchemy import Column, String, DateTime

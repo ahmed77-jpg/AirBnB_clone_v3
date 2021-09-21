@@ -2,9 +2,8 @@
 """
 Contains class BaseModel
 """
-
+import sqlalchemy
 from datetime import datetime
-import models
 from sqlalchemy import Column, String, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 import uuid
